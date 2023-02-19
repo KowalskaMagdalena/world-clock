@@ -72,9 +72,8 @@ function updateCity(event) {
   let backbutton = document.querySelector("#backbutton");
   backbutton.innerHTML = `<a
           href="/"
-          class="btn btn-primary mt-4 "
           title="Back to homepage"
-          >Back</a
+          >Back to homepage</a
         >`;
 }
 
