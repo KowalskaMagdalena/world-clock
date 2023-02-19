@@ -69,6 +69,13 @@ function updateCity(event) {
           )}</div>
         </div>`;
   }, 1000);
+  let backbutton = document.querySelector("#backbutton");
+  backbutton.innerHTML = `<a
+          href="/"
+          class="btn btn-primary mt-4 "
+          title="Back to homepage"
+          >Back</a
+        >`;
 }
 
 let citiesSelectElement = document.querySelector("#city");
